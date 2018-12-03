@@ -34,6 +34,3 @@ async def unload(ctx, extension):
 		print('{} cannot be unloaded. [{}]'.format(extension, error))
 	
 	client.run(TOKEN)
-
-
-    
